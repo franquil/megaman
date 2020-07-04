@@ -20,6 +20,24 @@
     },
     "introduction": {
       "type": "text"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "rate": {
+      "type": "integer"
+    },
+    "categories": {
+      "via": "apps",
+      "collection": "category"
     }
   }
 }
