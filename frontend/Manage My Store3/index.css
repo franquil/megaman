@@ -79,6 +79,6 @@
 .optimize_app,.optimize_result{
 	display: flex;
 	flex-direction: row;
-	width: 90%;
+	width: 100%;
 	/*float: left;*/
 }
