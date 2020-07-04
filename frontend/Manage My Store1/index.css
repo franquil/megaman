@@ -1,0 +1,39 @@
+.index{
+	display: flex;
+	flex-direction: row;
+}
+.left_module{
+	height: 100%;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5%;
+	align-items: center;
+}
+.right_module{
+	height: 100%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+.function,.function-bottom{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3%
+}
+.function-bottom{
+	position: fixed;
+	bottom: 0;
+}
+.desc{
+	display: flex;
+	flex-direction: column;
+}
+.click{
+	padding: 10px;
+	margin-top: 15%;
+	background-color:#90EE90; 
+	font-size: larger;
+	border: none;
+	height: 20%;
+}
