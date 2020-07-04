@@ -1,0 +1,12 @@
+# Meganman strapi CMS
+# Author: Frank
+# Ref: https://strapi.io/documentation/v3.x/installation/docker.html
+version: '3'
+services:
+  strapi:
+    image: strapi/strapi:3.0.5-node12-alpine  
+    volumes:
+      - ./app:/srv/app
+    ports:
+      - '1337:1337'
+
