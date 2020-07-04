@@ -9,6 +9,7 @@
 	display: flex;
 	flex-direction: row;
 	/*vertical-align: middle;*/
+	margin-bottom: 10px;
 }
 .return{
 	background-color: #00BFFF; 
@@ -17,8 +18,17 @@
 	border: none;
 	padding: 5px;
 }
-.td{
-	width: 25%;
-	word-wrap: break-word;
-	word-break: break-all;
+.hr {
+    width: 80%;
+    border: 0; 
+    color: #f00;
+    background-color: #000;
+    height: 5px;       
+}
+.optimize_app,.optimize_result{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 1%;
 }
