@@ -36,10 +36,30 @@
 	font-size: larger;
 	border: none;
 	height: 20%;
+	outline: none;
 }
 .progress::-webkit-progress-bar{
 	background-color: #E6E6FA;
 }
 .progress::-webkit-progress-value{
 	background-color: #E6E6FA;
+}
+.Merchant_Info{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.select,.select_end{
+	border: none;
+	outline: none;
+	font-weight: 600;
+	background-color: #DCDCDC;
+	width: 60%;
+	padding: 5px;
+	margin-left: 3%;
+}
+.select_end{
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+	color: #F5F5F5;
 }

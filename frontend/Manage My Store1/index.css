@@ -50,3 +50,22 @@
 }
 .click:hover:before{position:absolute; content:""; bottom:0; left:0; height:20px; width:50%; box-shadow:0 15px 10px rgba(0,0,0,0.3); -webkit-transform:rotate(-6deg); -moz-transform:rotate(-6deg); -o-transform:rotate(-6deg); -ms-transform:rotate(-6deg); transform:rotate(-6deg); z-index:-1}
 .click:hover:after{position:absolute; content:""; bottom:0; left:0; height:20px; width:50%; box-shadow:0 15px 10px rgba(0,0,0,0.3); -webkit-transform:rotate(-6deg); -moz-transform:rotate(-6deg); -o-transform:rotate(-6deg); -ms-transform:rotate(-6deg); transform:rotate(-6deg); z-index:-1;right:0; left:auto; -webkit-transform:rotate(6deg); -moz-transform:rotate(6deg); -o-transform:rotate(6deg); -ms-transform:rotate(6deg); transform:rotate(6deg)}*/
+.Merchant_Info{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.select,.select_end{
+	border: none;
+	outline: none;
+	font-weight: 600;
+	background-color: #DCDCDC;
+	width: 60%;
+	padding: 5px;
+	margin-left: 3%;
+}
+.select_end{
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+	color: #F5F5F5;
+}
